@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Puzzle Games",
+    "slug": "puzzle-games",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.puzzlegames.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFF8EC"
+      }
+    },
+    "plugins": [
+      "expo-font",
+      "@react-native-google-signin/google-signin",
+      "expo-audio",
+      "expo-asset"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "53acb219-f2a4-46a3-a741-f92d3f54e2d6"
+      }
+    },
+    "owner": "nurfarhanigg",
+    "icon": "./assets/icon.png"
+  }
+}
